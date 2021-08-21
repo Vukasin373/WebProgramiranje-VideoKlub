@@ -1,0 +1,334 @@
+*
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+body
+{
+   background-color:darkgrey;
+  flex-direction: column;
+
+}
+
+.kontejner
+{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.link {
+	color: black;
+}
+
+
+.top
+{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+
+.nazivKluba
+{
+    text-align: center;
+}
+
+.divOpcija
+{
+    display: flex;
+    background-color:grey;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+    
+    flex-wrap: wrap;
+
+}
+
+.sort
+{
+    margin-right: 5px;
+}
+
+.estetikDugme:hover {
+	background-color: darkgrey;
+	scale: 1.2;
+}
+
+
+.lbl
+{
+    margin-left: 4px;
+}
+
+
+
+
+a {
+	text-decoration: none;
+    width: 200px;
+    text-align: center;
+}
+
+.formDodaj
+{
+    margin-top: 50px;
+   
+    display: flex;
+    
+    flex-direction: column;
+    width: 200px;
+  
+   
+}
+
+.select2
+{
+    width: 100px;
+}
+
+.godInput
+{
+    width: 55px;
+}
+
+.select3
+{
+    width: 45px;
+}
+
+.divTrajanje
+{
+    display: flex;
+}
+
+.vremeInput
+{
+    width: 50px;
+}
+
+.pomeraj
+{
+    margin-top: 10px;
+}
+
+.opisInput
+{
+  
+    height: 30px;
+}
+
+.bot2Form
+{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-wrap: wrap;
+   
+}
+
+.divGlumac
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formaGlumac
+{
+    display: flex;
+    margin-left: 50px;
+    flex-direction: column;
+}
+
+.but
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: grey;
+}
+
+.divButtons
+{
+    display: flex;
+    align-items: flex-end;
+}
+
+.but2
+{
+    width: 150px;
+    height: 35px;
+}
+
+.bot
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+    
+}
+
+.divFilm
+{
+    display: flex;
+  
+    border: 1px solid black;
+    margin-bottom: 70px;
+   
+    flex-wrap: wrap;
+}
+
+
+
+.slika
+{
+    
+	width: 180px;
+    height: 250px;
+	margin-right: 20px;
+}
+
+.divNaziv
+{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.divDugmici
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: flex-end;
+    margin-bottom: 5px;
+    
+}
+
+.pIo
+{
+    height: 30px;
+    width: 100px;
+}
+
+.divIme
+{
+    display:flex;
+    
+    align-self: center;
+    word-break: break-all;
+}
+
+.bot3
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+
+.bojiKockicu
+{
+    background-color: brown;
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+}
+
+.red2
+{
+    display: flex;
+    flex-wrap: wrap;
+   
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ocenaRed
+{
+    display: flex;
+    flex-grow: 1;
+    
+    margin-left: 50px;
+
+    
+   margin-bottom: 150px;
+   margin-top: 50px;
+    min-width: 170px;
+    
+    
+}
+
+.kockica
+{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-grow: 1;
+}
+
+.proc
+{
+  
+    align-self: center;
+    padding-bottom: 50px;
+    padding-left: 10px;
+}
+
+.botPrikaz
+{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+    margin-top: 50px;
+}
+
+.formaPrikaz
+{
+    
+   
+    display: flex;
+    
+    flex-direction: column;
+    
+    margin-left: 80px;
+    margin-bottom: 20px;
+   
+}
+
+.glumciForma
+{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.slikaGlumca
+{
+    display: flex;
+    flex-grow: 1;
+    height: 260px;
+    width: 250px;
+}
+
+.divGlumacPrikaz
+{
+    border: 1px solid grey;
+    margin-bottom: 15px;
+}
+
+.podaci
+{
+    display: flex;
+    flex-direction: column;
+}
